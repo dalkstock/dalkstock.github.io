@@ -1,48 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../icon/css/all.min.css">
 </head>
-<body>
-   <div class="login-page" id="form">
-        <div class="form">
-          <div class="register-form">
-            <input type="text" placeholder="name"/>
-            <input type="password" placeholder="password"/>
-            <input type="text" placeholder="email address"/>
-            <button>create</button>
-            <p class="message">Already registered? <a href="#">Sign In</a></p>
-          </div>
-          <div class="login-form">
-            <b id="txt">Log in</b>
-            <br><hr color="#89c06a"><br>
-            <input type="text" placeholder="username" id="inp1"/>
-            <input type="password" placeholder="password" id="inp2"/>
-            <button id="but1">login</button>
-            <p class="message">Not registered? <a href="#">Create an account</a></p>
-          </div>
-        </div>
-      </div> 
-      <div id="profile">
-        <b>My Profile</b>
-        <hr color="#89c06a">
-        <div id="img"></div>
-       
-        <p>Username</p>
-        <p id="name"></p>
-        <input type="text" class="name" id="name2">
-        <br><br>
-        <p>Password</p>
-        <p id="pas"></p>
-        <input type="password" class="pas" id="pas2">
-        <br><br>
-        <button id="edit">Edit Profile</button>
-      </div>
 
-      <script src="script.js"></script>
+<body>
+
+    <div id="head-item">
+        <div id="menu">
+            <a href="#">B2BArmenia</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact us</a>
+            <a href="#">Report</a>
+            <button id="btn-1">
+                <b>Online Assistant</b>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+
+        <div id="head-bottom">
+            <div id="head-left">
+                <br><br><br><br>
+                <span id="main-text" class="ft1">Your Bussiness</span>
+                <br>
+                <span id="main-text">Assistant in</span>
+                <br>
+                <span id="main-text">Armenia</span>
+
+                <br><br>
+                <span id="main-text2">World-bridge-Armenia </span>
+                <br>
+                <button id="btn2">
+                    <b>Learn More</b>
+                </button>
+            </div>
+
+
+            <div id="head-right">
+                <div id="image">
+                    <div id="carusel">
+                        <button id="img1"></button>
+                        <button id="img2"></button>
+                        <button id="img3"></button>
+                        <button id="img4"></button>
+                        <button id="img5"></button>
+                    </div>
+                </div>
+                <span id="head-info">Agriculture</span>
+                <br>
+                <span id="head-info2">Tourism</span>
+                <br>
+                <span id="head-info3">IT</span>
+                <br>
+                <span id="head-info4">Real estate</span>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <div id="container2">
+        <div id="cont2-title">
+            <p>Better Strategy With</p>
+            <p>Quality Business</p>
+        </div>
+        <div id="stats">
+            <div id="stats-item">
+                <i class="fas fa-user-friends" id="friend-ic"></i>
+                <p id="number">972 +</p>
+                <p id="friend-text">Projects Done</p>
+            </div>
+            <div id="stats-item">
+                <i class="fas fa-user-friends" id="friend-ic"></i>
+                <p id="number">181 +</p>
+                <p id="friend-text">Satisfied Customers</p>
+            </div>
+            <div id="stats-item">
+                <i class="fas fa-user-friends" id="friend-ic"></i>
+                <p id="number">0,98</p>
+                <p id="friend-text">Successful projects</p>
+            </div>
+            <div id="stats-item">
+                <i class="fas fa-user-friends" id="friend-ic"></i>
+                <p id="number">746 +</p>
+                <p id="friend-text">Cases</p>
+            </div>
+        </div>
+    </div>
+    <div id="clients">
+        <div id="cont3-title">
+            <p>What Clients Say</p>
+            <p>Problems trying to resolve the conflict between</p>
+            <p>The two major realms of Classical physics: Newtonian mechanics</p>
+        </div>
+        <div id="our-client">
+            <div id="client-portfolio">
+                <div id="client-img">
+                    <img src="client-img1.png" id="client-img1">
+                </div>
+                <div id="client-info">
+                    <p>Regina Miles</p>
+                    <p>Inventor</p>
+                    <div id="all-star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="client-portfolio">
+                <div id="client-img">
+                    <img src="client-img2.png" id="client-img2">
+                </div>
+                <div id="client-info">
+                    <p>Regina Miles</p>
+                    <p>Inventor</p>
+                    <div id="all-star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="our-team">
+        <p id="cont4-title">Who we are/Our team</p>
+        <p id="desc1">This About some information about our team</p>
+        <div id="about-us">
+            <div id="video-team">
+                <img src="video1.png">
+            </div>
+            <div id="desc2">
+                <!-- Some information writing in Description!!!!-->
+            </div>
+        </div>
+    </div>
+    <div id="container4">
+    <div id="contact-us">
+        <p id="desc11"> Contact Us</p>
+        <p id="cont4-title">Make an Appointment</p>
+        <div id="form1">
+            <input type="text" id="inp1" placeholder=" Full Name">
+            <input type="text" class="inp-left" id="inp1" placeholder=" Email">
+        </div>
+        <div id="form2">
+            <input type="text" id="inp1" placeholder=" Please Select">
+            <input type="text" class="inp-left" id="inp1" placeholder=" 4.00 Available">
+        </div>
+        <div id="form3">
+            <textarea id="area" placeholder="Message"></textarea>
+        </div>
+        <button id="submit">Book Appointment</button>
+    </div>
+</div>
+<div id="footer">
+    <div id="foot-item">
+        <span id="main-item">Get In Touch</span>
+        <br><br>
+        <p id="foot-text">the quick fox jumps over the lazy dog</p>
+    </div>
+    <div id="foot-item">
+        <span id="main-item">Company info</span>
+        <br><br>
+       <p id="foot-text">About Us</p>
+       <p id="foot-text">Blog</p>
+    </div>
+    <div id="foot-item">
+        <span id="main-item">Services</span>
+        <br><br>
+        <p id="foot-text">Service</p>
+        <p id="foot-text">Service</p>
+        <p id="foot-text">Service</p>
+    </div>
+</div>
+<hr>
+<div id="end">
+    <p>Made With Love By Figmaland All Right Reserved © </p>
+</div>
+<hr>
+    <script src="script.js"></script>
 </body>
+
 </html>
